@@ -42,7 +42,7 @@ a=A(VF=VF,r=r,n=n)
 a
 ```
 ### Número de pagos o plazo, conociendo valor futuro, número de pagos y tasa del periodo.
-NUavamente utilizando el ejemplo anterior obtendremos el numero de pagos y para esto veremos que:
+Nuavamente utilizando el ejemplo anterior obtendremos el numero de pagos y para esto veremos que:
 $VF$=$90295.79
 $i$=5%
 $A$=900
@@ -57,4 +57,21 @@ A=900
 Np=n(VF=VF,r=r,A=A)
 # imprimimos el resultado
 Np
+```
+### Tasa del periodo, conociendo valor futuro, número de pagos y monto de la anualidad.
+Para finalizar los ejemplos con valor final resolveremos el ejercicio para la tasa del periodo por lo que los datos se usarian de la siguiente manera:
+$VF$=$90295.79
+$n$=84
+$A$=900
+Se realizan los calculos:
+```(r)
+# Creamos objetos con valores de entrada
+VF=90295.79
+n=84
+r=0.05/12
+A=900
+# calculamos la tasa del periodo
+Ts=r(VF=VF,n=n,A=A)
+# imprimimos el resultado
+Ts
 ```
