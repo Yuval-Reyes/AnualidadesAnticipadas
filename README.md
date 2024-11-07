@@ -24,3 +24,20 @@ VFt=VF(A=A,r=r,n=n)
 # imprimimos el resultado
 VFt
 ```
+### Anualidad, conociendo valor futuro, tasa del periodo y número de pagos.
+Usando el mismo ejercico pero ahora buscaremos la anualidad donde:
+$VF$=$90295.79
+$i$=5%
+$n$=84 meses
+Se realizan los calculos:
+```(r)
+# Creamos objetos con valores de entrada
+VF=90295.79
+i=0.05
+r=0.05/12
+n=84
+# calculamos el valor futuro
+Ar=A(VF=VF,r=r,n=n)
+# imprimimos el resultado
+Ar
+```
