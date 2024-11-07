@@ -36,8 +36,25 @@ VF=90295.79
 i=0.05
 r=0.05/12
 n=84
-# calculamos el valor futuro
+# calculamos la anualidad
 a=A(VF=VF,r=r,n=n)
 # imprimimos el resultado
 a
+```
+### Número de pagos o plazo, conociendo valor futuro, número de pagos y tasa del periodo.
+NUavamente utilizando el ejemplo anterior obtendremos el numero de pagos y para esto veremos que:
+$VF$=$90295.79
+$i$=5%
+$A$=900
+Se realizan los calculos:
+```(r)
+# Creamos objetos con valores de entrada
+VF=90295.79
+i=0.05
+r=0.05/12
+A=900
+# calculamos el numero de plazos
+Np=n(VF=VF,r=r,A=A)
+# imprimimos el resultado
+Np
 ```
