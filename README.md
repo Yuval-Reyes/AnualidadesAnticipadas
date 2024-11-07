@@ -37,7 +37,7 @@ i=0.05
 r=0.05/12
 n=84
 # calculamos el valor futuro
-Ar=A(VF=VF,r=r,n=n)
+a=A(VF=VF,r=r,n=n)
 # imprimimos el resultado
-Ar
+a
 ```
