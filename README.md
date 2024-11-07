@@ -70,7 +70,7 @@ VF=90295.79
 n=84
 A=900
 # calculamos la tasa del periodo
-Ts=r(VF=VF,n=n,A=A)
+Tp=r(VF=VF,n=n,A=A)
 # imprimimos el resultado
-Ts
+Tp
 ```
