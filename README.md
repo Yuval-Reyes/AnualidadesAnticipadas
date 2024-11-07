@@ -68,7 +68,6 @@ Se realizan los calculos:
 # Creamos objetos con valores de entrada
 VF=90295.79
 n=84
-r=0.05/12
 A=900
 # calculamos la tasa del periodo
 Ts=r(VF=VF,n=n,A=A)
