@@ -90,7 +90,7 @@ i=0.09
 r=0.09/12
 n=180
 # calculamos el valor futuro
-VA=VA(A=A,r=r,n=n)
+va=VA(A=A,r=r,n=n)
 # imprimimos el resultado
-VFt
+va
 ```
