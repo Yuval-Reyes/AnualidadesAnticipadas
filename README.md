@@ -94,3 +94,53 @@ va=VA(A=A,r=r,n=n)
 # imprimimos el resultado
 va
 ```
+### Anualidad, conociendo valor actual, tasa del periodo y número de pagos.
+Usando el mismo ejercico pero ahora buscaremos la anualidad donde:
+$VA$=$49296.7
+$i$=9%
+$n$=180 meses
+Se realizan los calculos:
+```(r)
+# Creamos objetos con valores de entrada
+VA=49296.7
+i=0.09
+r=0.09/12
+n=180
+# calculamos la anualidad
+a=A(VA=VA,r=r,n=n)
+# imprimimos el resultado
+a
+```
+### Número de pagos o plazo, conociendo valor actual, número de pagos y tasa del periodo.
+Nuavamente utilizando el ejemplo anterior obtendremos el numero de pagos y para esto veremos que:
+$VA$=$49296.7
+$i$=9%
+$A$=500
+Se realizan los calculos:
+```(r)
+# Creamos objetos con valores de entrada
+VA=49296.7
+i=0.09
+r=0.09/12
+A=500
+# calculamos el numero de plazos
+Np=n(VA=VA,r=r,A=A)
+# imprimimos el resultado
+Np
+```
+### Tasa del periodo, conociendo valor actual, número de pagos y monto de la anualidad.
+Para finalizar los ejemplos con valor final resolveremos el ejercicio para la tasa del periodo por lo que los datos se usarian de la siguiente manera:
+$VA$=$49296.7
+$n$=180
+$A$=500
+Se realizan los calculos:
+```(r)
+# Creamos objetos con valores de entrada
+VA=49296.7
+n=180
+A=500
+# calculamos la tasa del periodo
+Tp=r(VA=VA,n=n,A=A)
+# imprimimos el resultado
+Tp
+```
