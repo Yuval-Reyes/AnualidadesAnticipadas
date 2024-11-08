@@ -74,3 +74,23 @@ Tp=r(VF=VF,n=n,A=A)
 # imprimimos el resultado
 Tp
 ```
+## valor actual
+### Valor actual, conociendo la anualidad, tasa de interés del periodo y el número (plazo) de anualidades.
+Ahora usaremos un nuevo enunciado para plantear el siguiente ejemplo:
+¿Cuál es el valor presente de una renta de $500 depositada a principio de cada mes, durante 15 años en una cuenta de ahorros que gana el 9%, convertible mensualmente? 
+Donde:
+$A$=$500
+$i$=9%
+$n$=180 meses
+Se realizan los calculos:
+```(r)
+# Creamos objetos con valores de entrada
+A=500
+i=0.09
+r=0.09/12
+n=180
+# calculamos el valor futuro
+VA=VA(A=A,r=r,n=n)
+# imprimimos el resultado
+VFt
+```
