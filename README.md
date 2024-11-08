@@ -107,7 +107,7 @@ i=0.09
 r=0.09/12
 n=180
 # calculamos la anualidad
-a=A(VA=VA,r=r,n=n)
+a=A_(VA=VA,r=r,n=n)
 # imprimimos el resultado
 a
 ```
@@ -124,7 +124,7 @@ i=0.09
 r=0.09/12
 A=500
 # calculamos el numero de plazos
-Np=n(VA=VA,r=r,A=A)
+Np=n_(VA=VA,r=r,A=A)
 # imprimimos el resultado
 Np
 ```
@@ -140,7 +140,7 @@ VA=49296.7
 n=180
 A=500
 # calculamos la tasa del periodo
-Tp=r(VA=VA,n=n,A=A)
+Tp=r_(VA=VA,n=n,A=A)
 # imprimimos el resultado
 Tp
 ```
